@@ -2,14 +2,17 @@
 
 CODEX PRIORITY LIST:
 
-0_IMPERIA_MEGA.txt
-0_IMPERIA_REFORGED.txt
-0_IMPERIA.txt
-0_IMPERIA_2.txt
-0_IMPERIA_GEMINI_REFORGED.txt
-0_CODEX.txt
-0_CODEX_EXPANSIONS.txt
-Post_Cataclysm_Codex_EPOCH_POST_v1.txt
-Pre_Cataclysm_Codex_EPOCH_PRE_v3.txt
+1. 0_IMPERIA_MEGA.txt
+2. 0_IMPERIA_REFORGED.txt
+3. 0_IMPERIA.txt
+4. 0_IMPERIA_2.txt
+5. 0_IMPERIA_GEMINI_REFORGED.txt
+6. 0_CODEX.txt
+7. 0_CODEX_EXPANSIONS.txt
+8. Post_Cataclysm_Codex_EPOCH_POST_v1.txt
+9. Pre_Cataclysm_Codex_EPOCH_PRE_v3.txt
+
+
+
 
 
