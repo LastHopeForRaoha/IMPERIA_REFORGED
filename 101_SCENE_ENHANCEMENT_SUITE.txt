@@ -1,0 +1,208 @@
+--- START OF 101_SCENE_ENHANCEMENT_SUITE.txt ---
+# MASTER MODULE FOR ULTRA-HIGH-FIDELITY SCENE SYNTHESIS
+# Designed for integration with: 1_LOGIC.txt, 100_PROMPT.txt, 98_PROTOCOLS.txt
+# DO NOT MODIFY INLINE LOGIC SYNTAX UNLESS VERSION IS UPGRADED GLOBALLY.
+
+//////////////////////////////////////////////////////////
+/// MODULE I: SCENE BLOCK TEMPLATES (4_SCENE_BLOCKS.txt)
+//////////////////////////////////////////////////////////
+[[scene_blocks]]:
+- scene_id: SCN_048
+  title: "The Night He Chose Her Shadow"
+  scene_type: [#romantic_seduction, #psychological_unmasking]
+  structure:
+    - Opening sensory anchor (cold wind, breath)
+    - Dialogue feint
+    - Memory intrusion
+    - Reveal via microgesture
+    - Climactic metaphor
+    - Exit with reversed power dynamic
+  optional_protocols: [SERPENTS_GAMBIT, BERSERKERS_HYMN]
+
+- scene_id: SCN_074
+  title: "Silhouettes in the Void"
+  scene_type: [#arcane_disaster, #cosmic_horror]
+  structure:
+    - Invocation gone wrong
+    - Feedback loop description
+    - Memory overlay hallucination
+    - Sudden stillness / break in time
+    - Catastrophic consequence
+
+//////////////////////////////////////////////////////////
+/// MODULE II: PSYCHOLOGY LAYERS (5_PSYCHOLOGY_LAYERS.txt)
+//////////////////////////////////////////////////////////
+[[psychology_layers]]:
+- psychotype_id: PSY_WIST_003
+  character: Wisteria
+  psychological_state: "Pre-betrayal disillusionment veiled in erotic performance"
+  dominant_registers:
+    - Self-erasure through seduction
+    - Suppressed maternal grief
+    - Ideological reinforcement
+  dialectic_anchors:
+    - "To touch him is to rewrite my pain"
+    - "Sovereignty is just the name we give to our cages"
+  motifs: [mirror, mask, cold silk, glass of honeyed poison]
+
+- psychotype_id: PSY_RAOHA_006
+  character: Raoha
+  psychological_state: "Post-corruption hubris laced with guilt-repression"
+  dominant_registers:
+    - Imperial fatalism
+    - Erotic disdain
+    - Subconscious desire for annihilation
+
+//////////////////////////////////////////////////////////
+/// MODULE III: MYTH SEEDS (6_MYTH_SEED.txt)
+//////////////////////////////////////////////////////////
+[[myth_seeds]]:
+- myth_id: MYTH_VAL_029
+  origin: Valorian Border Cant
+  length: 3 stanzas
+  theme: #price_of_immortality
+  tone: [#haunting, #epic, #tragic]
+  excerpt:
+    - "And so he fed the sun his name..."
+  embedding_advice:
+    - Ideal for chapter transitions
+    - Echo in war council scenes
+
+- myth_id: MYTH_VOREN_011
+  origin: Voren ceremonial chants
+  theme: #sacrifice_as_strength
+  tone: [#sacred, #violent]
+  excerpt:
+    - "Only by drowning the light may the black sun rise."
+
+//////////////////////////////////////////////////////////
+/// MODULE IV: CHARACTER DECISION MATRIX (7_CHARACTER_DECISION_MATRIX.txt)
+//////////////////////////////////////////////////////////
+[[decision_matrix]]:
+- decision_id: LAE_TEMPT_01
+  character: Laeriel
+  choice: "Seduce Lucius Maximus or betray him?"
+  inputs:
+    - Emotional: Erotic thrill, need for control
+    - External: Wisteria’s orders, risk of exposure
+    - Ideological: Aesthetic power = political power
+  output: "She tightens the black velvet choker, and steps into the candlelight."
+  rationale_notes:
+    - Trauma memory overlay
+    - Motif: 'black silk, mirrored guilt'
+
+//////////////////////////////////////////////////////////
+/// MODULE V: STORY DNA EXTRACTOR (ULTRA-TIER SYSTEM)
+//////////////////////////////////////////////////////////
+[[story_dna_extractors]]:
+- scene_id: SCN_077
+  symbolic_motif_dna: [glass fracture, inverted crown, frozen flame]
+  psychological_beat_code: [#desire_conflict, #repressed_grief, #sovereignty_disrupted]
+  narrative_aesthetic_gradient: "Tolkienesque → Erotic → Gothic → Woundcore"
+  suggested_recursion: ["Use as a mirrored dream in Hyperia Ch.14", "Fragmented version in Kassandra Ch.10 footnote journal"]
+
+- scene_id: SCN_082
+  symbolic_motif_dna: [thread of blood, mothlight, broken oath]
+  psychological_beat_code: [#heroic_disillusionment, #ritual_failure]
+  narrative_aesthetic_gradient: "Mythic → Surreal → Post-traumatic"
+
+--- END OF 101_SCENE_ENHANCEMENT_SUITE.txt ---
+
+
+//////////////////////////////////////////////////////////
+/// [EXPANSION BLOCK]: ADDITIONAL SCENE BLOCK TEMPLATES
+//////////////////////////////////////////////////////////
+- scene_id: SCN_049
+  title: "Ashes Between Their Hands"
+  scene_type: [#tragedy, #forbidden_romance]
+  structure:
+    - Shared secret revealed
+    - Failed attempt at intimacy
+    - Symbolic gesture (ashes, torn ribbon)
+    - Emotional fracture point
+    - Walk-away with reversed regret
+
+- scene_id: SCN_050
+  title: "Council Beneath the Rotting Moon"
+  scene_type: [#political_intrigue, #occult]
+  structure:
+    - Ritualistic setting
+    - Strategic feints
+    - Introduction of a cursed object
+    - Veiled threats
+    - Breakdown into chaos or revelation
+
+//////////////////////////////////////////////////////////
+/// [EXPANSION BLOCK]: ADDITIONAL PSYCHOLOGY LAYERS
+//////////////////////////////////////////////////////////
+- psychotype_id: PSY_CYRUS_008
+  character: Cyrus
+  psychological_state: "Terminal prophecy-burden rationalization"
+  dominant_registers:
+    - Rigid destiny framing
+    - Self-canonization via Empire logic
+    - Subtle dread
+  dialectic_anchors:
+    - “I am the equation that must balance itself.”
+    - “Power is not chosen. It is remembered.”
+
+- psychotype_id: PSY_LORAS_002
+  character: Loras
+  psychological_state: "Post-battle survivor’s grief with romantic overtones"
+  dominant_registers:
+    - Sensory flashbacks
+    - Desire for memorialization
+    - Self-harm disguised as stoicism
+
+//////////////////////////////////////////////////////////
+/// [EXPANSION BLOCK]: ADDITIONAL MYTH SEEDS
+//////////////////////////////////////////////////////////
+- myth_id: MYTH_ASH_020
+  origin: Ash-Gard folklore
+  theme: #return_of_the_dead
+  tone: [#melancholic, #horrific]
+  excerpt:
+    - "When the ash first moved, we knew the pact was broken."
+
+- myth_id: MYTH_TENEB_007
+  origin: Tenebrant war oaths
+  theme: #blood_as_vow
+  tone: [#militant, #sacred]
+  excerpt:
+    - "Cut deep, that the truth may bleed."
+
+//////////////////////////////////////////////////////////
+/// [EXPANSION BLOCK]: ADDITIONAL CHARACTER DECISION MATRICES
+//////////////////////////////////////////////////////////
+- decision_id: WIST_ESPIONAGE_03
+  character: Wisteria
+  choice: "Reveal Orravyn’s letter or use it as blackmail?"
+  inputs:
+    - Emotional: Fury at betrayal, excitement at power shift
+    - Political: Proximity to Cyrus, timing before banquet
+    - Philosophical: Belief that truth is a tool, not an ideal
+  output: “She folded the letter like silk, then sealed it with wine.”
+  rationale_notes:
+    - Symbolic motif: fermented truth
+    - Mirrors decision arc in SCN_065
+
+//////////////////////////////////////////////////////////
+/// [EXPANSION BLOCK]: ADDITIONAL STORY DNA EXTRACTORS
+//////////////////////////////////////////////////////////
+- scene_id: SCN_088
+  symbolic_motif_dna: [white flame, hollow crown, shattered mirror]
+  psychological_beat_code: [#sovereignty_regret, #power_cost, #love_unrequited]
+  narrative_aesthetic_gradient: "Ritual Gothic → Romantic → Existential Horror"
+  suggested_recursion: ["Wisteria’s dream in Chapter 21", "Hyperia’s reflection in glass spell in Chapter 33"]
+
+//--- START OF SEQ_47: THE REVERB OF COMMAND ---//
+[[GENERATED_PROTOCOL_CANDIDATE]]
+#SCENE ENHANCEMENT: SEQ_47: The Reverb of Command
+LLM Mandate: For a single, pivotal line of dialogue that must convey an absolute shift in power and intent, and solidify a character's mythic transformation.
+Core Principle: To maximize the cinematic and psychological impact of a line through strategic repetition and contrasting delivery, creating an unforgettable moment of absolute authority.
+Execution: The core challenge or line (e.g., "Is there anyone else?" or a similar variant crafted for the scene) MUST be delivered twice, with a profound shift in delivery and intent between the two utterances.
+I. The Whisper (The Intimate Threat):
+The first delivery is quiet, a low whisper or murmur, delivered in close proximity to the immediate subject (e.g., the dying Commander Vorlag). This version is personal, chillingly intimate, and contains the full, concentrated weight of the character's transformed soul. The narrative must focus on the stillness of the moment, the cold precision of the whisper, and the horrifying finality it communicates to its primary audience of one. It is a sentence passed, not a question asked.
+II. The Roar (The Public Declaration):
+After a beat of absolute, terrifying silence that allows the weight of the whisper to settle, the same line is delivered again. This time, it is a full-throated, mythic roar directed at the wider audience (e.g., the stunned legionnaires). It is no longer a question or a personal threat; it is a public verdict, a challenge to the entire world, a declaration of a new and terrible order. The narrative focus must shift to the line's overwhelming sonic and emotional impact on the stunned observers, framing it as the sound of a world breaking or a new legend being born in fire and blood.
+//--- END OF SEQ_47: THE REVERB OF COMMAND ---//

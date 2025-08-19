@@ -1,0 +1,191 @@
+//---START OF 103_VOICE_HARMONIZER.txt ---//
+103_VOICE_HARMONIZER.txt — AI VOICE HARMONIZER MODULE
+====================================================
+
+PURPOSE:
+--------
+Ensure every chapter, scene, and character retains a consistent, emotionally coherent, and stylistically aligned "voiceprint" across the entire manuscript.
+
+MODULE STRUCTURE:
+-----------------
+
+1. CHAPTER VOICEPRINT TEMPLATE
+------------------------------
+[Chapter ID: e.g., CH_8.5]
+- POV Character:
+- Tense:
+- POV Type:
+- Narrative Tone:
+- Dominant Lexical Field: (e.g., martial, poetic, mythic, erotic)
+- Sentence Rhythm: (e.g., lyrical, clipped, complex)
+- Syntactic Style: (e.g., polysyndetic, Latinate, stream-of-consciousness)
+- Thematic Load: (e.g., betrayal, lust, dread, transcendence)
+
+2. CHARACTER SPEECH TUNING TEMPLATE
+-----------------------------------
+[Character: e.g., Wisteria]
+- Dominant Register: (e.g., formal, florid, cryptic, brutalist)
+- Idiosyncratic Phrases:
+- Dialogue Tempo: (e.g., slow, punctuated, rapid)
+- Deviations by Scene/Event:
+- Emotional Modulation Protocols:
+  - [Trigger] → [Speech Shift] → [Recovery Vector]
+
+3. CROSS-CHAPTER AESTHETIC CONTINUITY
+-------------------------------------
+- [CH_X → CH_Y Transition Smoothing]
+  - Tone Bridge:
+  - Symbolic Motif Carryover:
+  - Lexical Gradient Matching:
+  - POV Rhythm Sync:
+
+4. LITERARY STYLE FUSION PROTOCOLS
+----------------------------------
+Example: [Tolkienesque + Gothic + Erotic]
+- Sentence Model Blend: 50% Tolkienian cadence + 30% archaic Gothic structure + 20% metaphor-rich erotic flourish
+- Prohibited Lexical Collisions:
+  - "Modernisms" in epic frame
+  - Disruptive anachronism
+- Allowed Tensions:
+  - Gothic horror within mythic prose scaffold
+  - Erotic heat embedded in tragic rhythm
+
+5. INTEGRATION TAGS
+-------------------
+To be used inline in `100_PROMPT.txt` and validated via `1_LOGIC.txt`:
+- [VOICE_HARMONIZER:CH_ID]
+- [CHARACTER_VOICE_MATCH:NAME]
+- [STYLE_FUSION:Tag1+Tag2]
+- [EMOTIONAL_RESIDUE:PreviousChapter]
+- [PULL_ANNEX:<TAG>]  # e.g., [PULL_ANNEX:BIO#childhood] – hint to ANNEX_BRIDGE for a specific pull
+
+[CHARACTER_VOICE_MATCH:VEL'DARAH]
+Scope: Current line only (sub-voice).
+Rules:
+- Enforce the Blade Whisper Gate from 3_ALL_CHARACTERS (Vel’Darah section).
+- Source markup MUST be single asterisks around the entire whisper: *…*
+- If any constraint fails (length, no contractions, sibilance, archaic-on-address, asterisk wrap), REJECT & REWRITE until satisfied.
+- Prefer conjunction lead ~30% of whispers; allow syntactic inversion.
+- Output only the whisper text (no meta or tags in the prose).
+- [PULL_ANNEX:<TAG>]  # e.g., [PULL_ANNEX:BIO#childhood], hints the ANNEX_BRIDGE to fetch a cue this beat
+
+[CHARACTER_VOICE_MATCH:HYPERIA_ECHO]
+Scope: Current line only (echo overlay).
+Rules (Ecliptra Echo Gate):
+- Structure: base clause + echo clause (2–5 words), separated by em dash or ·
+- Echo qualities: tense-shift OR aspect-shift OR negation-inversion (choose 1); no contractions in echo
+- Rhythm: 15–35% of Hyperia lines may carry an echo; never back-to-back >2 times
+- Markup: italics for echo only: base … — *echo variant*
+- Ban: no sibilance requirements; no archaic address; keep modern-mythic clarity
+- Auto-reject on fail (rewrite), like Vel’Darah
+
+
+6. ACCENT_APPLICATION (Engine)
+
+Inputs per speaker:
+- kit: <Valoria|Voren|Aethelgard|Marsh|Highlands|None>
+- intensity: <none|low|med|high>
+- toggles: { phonology:[...], idioms_whitelist:[...], lexicon_bias:[...] }
+
+Rules:
+1) Intensity none → APPLY idioms only on ceremonial phrases; NO phonology.
+2) Intensity low  → idioms + 1 lexicon bias; phonology disabled unless stress=true.
+3) Intensity med  → idioms + 1 phonology rule (stress-conditional) + syntax bias if kit defines one.
+4) Intensity high → idioms + ≤2 phonology rules + syntax bias; monitor readability.
+
+Stress-Conditional Phonology:
+- If line tagged STRESS or speaker has stress_delta=true in the beat, allow one extra toggle (e.g., Voren th→d).
+
+Character Bridge:
+- Each character profile must carry:
+  accent_profile: { kit:<...>, intensity_baseline:<...>, intensity_stress_delta:<up|down|none> }
+- Scene can override per [ACCENT_SCOPE] (see header).
+
+Validation:
+- Do not alter proper nouns with phonology.
+- Never apply phonology to the Architect/Owner’s formal edicts (if any); keep prestige diction then.
+# --- ACCENT_APPLICATION • RUNTIME OVERLAY (from outline header) ---
+Overlay Inputs:
+- [ACCENT_SCOPE]: { SCENE_REGION, INTENSITY_SCENE_BASELINE }
+
+Overlay Rules:
+- For each speaker with accent_profile.kit:
+  • If kit == SCENE_REGION, set scene_intensity = INTENSITY_SCENE_BASELINE.
+  • Apply your existing intensity logic (none/low/med/high), plus stress-conditional phonology when beat.STRESS=true.
+  • Prestige diction (edicts/proclamations): suppress phonology but keep idioms.
+
+Validator Echo:
+- For the [VALIDATE] footer, report: ACCENT_APPLIED?: yes/no per speaker (noting any prestige suppressions).
+
+ANNEX_BRIDGE
+- When a beat references a tagged domain (REL#, BIO#, ARC#), fetch matching details from Section XV.
+- Prefer Annex sensory specifics (scents, textures, micro-habits) over generic description.
+- If Annex conflicts with outline facts, do not overwrite; emit [CHECKS:ANNEX_CONFLICT:<tag>] in the output footer.
+# --- ANNEX_BRIDGE (Extended) ---
+Inputs:
+- [AUTO_PULL_ANNEX]: { status, chars[], domains[], min_cues_per_scene }
+- Active scene speakers (from [SCENE_CAST] or detected dialogue)
+
+Rules (additive to existing):
+1) If status=ON, for the POV character present, pull ≥ min_cues_per_scene from their Section XV Annex
+   — limited to listed domains: RITUALS, HABITS, RELATIONSHIPS, SCAR_ORIGINS, LEXICON.
+2) Inject cues as concrete sensory or behavioral specifics (1–2 beats), not info-dumps.
+3) If outline facts conflict with Annex, DO NOT overwrite; add footer flag [CHECKS:ANNEX_CONFLICT:<tag>].
+
+Safety:
+- Never paste Annex paragraphs verbatim; translate to on-page specifics.
+
+PCC_BRIDGE
+- If [AUTO_PULL_ANNEX].status=ON or [PCC_LOCK] present, read XVII (PCC) for active speakers.
+- Enforce:
+  * ≥1 behavioral_anchor fires per 1k words per POV-adjacent character
+  * temperament_axes bias: choose verbs/pace matching warmth/earnestness/irony
+  * compass_inspirations: apply traits as stance, not phrasing (no quotes; no lookalike scenes)
+- Red line: if a line resembles a famous quote/scene from the inspiration, mutate register/metaphor until distant; log [CHECKS:PCC_DISTANCE_ADJUSTED].
+# --- PCC_BRIDGE (Extended) ---
+Inputs:
+- [PCC_LOCK]: { chars[], min_anchors_per_scene, distance_guard }
+- Character XVII (PCC) sections in each active character profile
+
+Rules (additive to existing):
+1) For each char in chars[] that speaks or has interiority, fire ≥1 behavioral_anchor per scene (or per 1k words).
+2) Temperament axes bias verb choice and rhythm; do not change world facts.
+
+Red line:
+- Inspirations are directional only. If any line resembles a known quote/scene from an inspiration,
+  mutate register and metaphor, then log [CHECKS:PCC_DISTANCE_ADJUSTED] when distance_guard=ON.
+  
+  VOICE SHEET SPEC (minimum fields)
+sheet_key:
+  cadence: (staccato | flowing | formal | rustic | clipped | lyrical | etc.)
+  syntax_tells: [examples of favored constructs]
+  lexicon_pref: [domain words, idioms, euphemisms, taboo terms]
+  filler/hesitation: [if any; frequency guidance]
+  rhetorical_moves: [e.g., leading questions, parables, aphorisms]
+  emotional_vents: [how intensity leaks in speech/interiority]
+  accent_overlay: [region kit name or “none”]
+
+
+SAMPLE HARMONIZER ENTRY
+-----------------------
+[VOICE_HARMONIZER:CH_9.0]
+- POV Character: Loras Lucinius
+- Tense: Past
+- POV Type: 3rd Person Limited
+- Narrative Tone: Mythic Despair
+- Lexical Field: Heroic + Decay
+- Rhythm: Oracular
+- Syntactic Style: Elevated, Long-Form
+- Thematic Load: Guilt, Prophecy, Doomed Love
+
+LINKAGE STATUS:
+---------------
+- ✅ Integrated with 100_PROMPT.txt (Scene Rendering)
+- ✅ Integrated with 1_LOGIC.txt (Tone Validation + Voiceprint Matching)
+- 🔄 Future Tie-In: 104_CHARACTER_DYNAMIC_ENGINE.txt
+
+NOTES:
+------
+This file can be appended per chapter or character. Scene renderers can call [VOICE_HARMONIZER:CH_ID] at generation time to lock tonal register.
+
+//---END OF 103_VOICE_HARMONIZER.txt ---//

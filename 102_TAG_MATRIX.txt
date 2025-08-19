@@ -1,0 +1,60 @@
+[Scene_ID]: CH5_NER_SERA_INTIMACY
+POV: Nerion
+SYMBOLIC_MOTIFS: twin-lure, vulnerability mirrored in touch, forbidden light through broken glass
+PSYCHOLOGICAL_BEAT_CODE: Submit > Feel > Question
+AESTHETIC_GRADIENT: Gothic Romanticism → Erotic → Tragic Myth
+KEY_PROTOCOLS: SERA_PHEROMONIC_ENTANGLEMENT, GAZE_MIRROR_SYMMETRY, MEMORY_INVERSION_05
+GP-IDPS_KEY: NERION_CORTEX_V2
+RECURSION_SEED: “See: 2_CURRENT_BOOK.txt, Scene → CH5_NER_SERA_INTIMACY”
+
+---
+[Scene_ID]: CH8_WISTERIA_VOLKOV_INQUISITION
+POV: Wisteria
+SYMBOLIC_MOTIFS: wine as sacrament, banquet as battlefield, mask peeled by metaphor
+PSYCHOLOGICAL_BEAT_CODE: Probe > Distract > Reveal
+AESTHETIC_GRADIENT: Political Thriller → Erotic Tension → Philosophical Gothic
+KEY_PROTOCOLS: INTEL_MIRROR_PROBE, PHI_SATIRE_INVERSION, RIDDLE_VINE_SEQUENCE
+GP-IDPS_KEY: WISTERIA_CORTEX_V2
+RECURSION_SEED: “See: 2_CURRENT_BOOK.txt, Scene → CH8_WISTERIA_VOLKOV_INQUISITION”
+
+---
+[Scene_ID]: CH17_THRONE_TRIANGULATION
+POV: Volkov
+SYMBOLIC_MOTIFS: throne shadow lengthens, child as pawn, civil war as sacrament
+PSYCHOLOGICAL_BEAT_CODE: Threaten > Deflect > Divide
+AESTHETIC_GRADIENT: House of Cards → High Fantasy → Occult Cold War
+KEY_PROTOCOLS: TRIPARTITE_THEATRE, SHADOW_EXTENDS_LOGIC, SACRIFICE_PROJECTION
+GP-IDPS_KEY: VOLKOV_CORTEX_V2
+RECURSION_SEED: “See: 2_CURRENT_BOOK.txt, Scene → CH17_THRONE_TRIANGULATION”
+
+---
+[Scene_ID]: CH34_LORAS_ELARA_FAREWELL
+POV: Loras
+SYMBOLIC_MOTIFS: ritual circle half-smeared, her blood shaped like an eclipse, flowers that should not bloom
+PSYCHOLOGICAL_BEAT_CODE: Mourn > Destroy > Descend
+AESTHETIC_GRADIENT: Mythic Tragedy → Woundcore → High Poetic Horror
+KEY_PROTOCOLS: FROSTED_WREATH_MIRROR, ANCESTRAL_WITNESS, RAGE_AS_RITUAL
+GP-IDPS_KEY: LORAS_CORTEX_V2
+RECURSION_SEED: “See: 2_CURRENT_BOOK.txt, Scene → CH34_LORAS_ELARA_FAREWELL”
+
+---
+ [Scene_ID]: CH36_RAOHA_EXECUTION_CROSSING
+ POV: Raoha
+ SYMBOLIC_MOTIFS: river as Rubicon, sacrifice in lieu of compass, eye-glow against the mist
+ PSYCHOLOGICAL_BEAT_CODE: Purify > Exemplify > Conquer
+ AESTHETIC_GRADIENT: Dark Epic → Ritualistic Military Horror → Mythic Fall
+ KEY_PROTOCOLS: LEGION_RHYTHM_FRACTURE, BLACK_STANDARD_PULSE, TOLL_OF_THE_UNSEEN
+ GP-IDPS_KEY: RAOHA_CORTEX_V2
+ RECURSION_SEED: “See: 2_CURRENT_BOOK.txt, Scene → CH36_RAOHA_EXECUTION_CROSSING”
++SUB_VOICE: VEL_DARAH_CORTEX_V1
++VOICE_TRIGGER: [CHARACTER_VOICE_MATCH:VEL'DARAH]
++SOURCE_MARKUP: asterisk italics (*…*) for blade whispers
+
+
+// SUB-VOICE SWITCH (Raoha + Blade Presence)
+[Template]: RAOHA_WITH_BLADE
+APPLIES_WHEN: GP-IDPS_KEY == RAOHA_CORTEX_V2 AND scene includes blade whispers
+SUB_VOICE: VEL_DARAH_CORTEX_V1
+VOICE_TRIGGER: On any blade-whisper line, prepend tag [CHARACTER_VOICE_MATCH:VEL'DARAH] before the line is rendered.
+FORMAT: Whisper lines must be output as *…* (single asterisks) in source.
+

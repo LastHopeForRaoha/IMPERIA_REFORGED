@@ -1,0 +1,262 @@
+﻿________________
+
+
+KING’S FALL: THE GAME OF SOVEREIGNS
+(Official ACSA Standard • Definitive Ruleset & Lore Compendium • Year 270 IY)
+Compiled under the Seal of the Aethelgardian Collegium of Strategic Arts (Simulated)
+Synthesized by Nexus-Ω / Æthelstan Glyndŵr Protocol
+Canon cross-referenced with Imperia Codex v4.0 and sanctioned Strategos materials.
+________________
+
+
+TABLE OF CONTENTS
+I. Introduction & Lore Integration
+II. Game Components (Sanctioned Tournament Set)
+III. Game Setup
+IV. Gameplay & Turn Structure (The Strategem Cycle)
+V. Combat System (The Crucible of Conflict)
+VI. Sovereign Vulnerability & Victory Conditions
+VII. Faction Manifests (Tournament-Ready Exemplar Sets)
+VIII. Essence-Infused Game Sets (Aesthetic & Functionality)
+IX. The Imperian Strategos League (ISL) & Competitive Play
+X. Renowned Players & Strategic Styles
+XI. Shadow Games & Underground Culture
+XII. Historical Context & Evolution of King’s Fall
+XIII. LLM Simulation Guide & Mechanics Reference
+XIV. Glossary
+XV. Designer’s Commentary & Balance Philosophy
+XVI. Worked Examples (Play Examples)
+________________
+
+
+I. INTRODUCTION & LORE INTEGRATION
+A. Overview: The Ancient Game of Thrones
+King’s Fall (High Imperian: Regis Cadere) is Imperia’s oldest, most revered strategic board game—a distilled model of conquest, influence, leadership, and the lurching hand of history via Chronicle events. Two players command asymmetric factions in a contest of tempo, maneuver, and brinkmanship.
+B. Theme: Conflicts of Imperia
+Each match reenacts a historical or mythic clash. Players assume legendary Sovereigns—Kings, Queens, Wardens, Khans, Mage-Lords—each with unique kits, leaders, and events. Modern manifests and boards were standardized by the ACSA to preserve asymmetry and fair competitive play.
+C. Cultural Significance & History
+From simple travel sets in legion tents to luminous crystal boards in archon halls, King’s Fall is ubiquitous. The Imperian Strategos League (ISL) maintains rankings (the Gladius Index), curates maps, and hosts major tournaments.
+________________
+
+
+II. GAME COMPONENTS (SANCTIONED TOURNAMENT SET)
+A. The Strategos Game Board
+Point-to-point network (typically 24–32 Locations grouped into 5–7 Territories), each Location named, typed (City, Fortress, Forest, Pass, Ruins, Nexus, etc.), and printed with a base CP (Command Point) value (normally 1–2).
+B. Aetherium-Infused Faction Sets
+Each faction includes: 1 Sovereign, Luminaries (Leaders), a pool of Units (Basic/Elite), Influence markers, and a Concordance Scroll (rulesheet). Premium sets are cast in Aetherium resin/Lumenstone with a faint internal glow; cheaper sets use wood or clay.
+C. The Chronicle Deck (Event Cards)
+66 cards on quality stock. Anatomy: Title, Ops value (1–4), Event text, optional Faction Icon (Aethelgard / Valoria / Voren / Neutral), and a lore note. The deck is balanced to create hard choices between ops economy vs. powerful Events.
+D. Combat Dice (Solidi & Umbra)
+5 Solidi (Defender) and 5 Umbra (Attacker) six-siders. Contrasting colors emphasize simultaneous resolution.
+E. Command Tokens (Aurum & Argentum)
+Metal/card tokens for CP (1s and 5s).
+F. Chronometers (Turn & Game)
+Turn Timer (typically 5 minutes) and a Game Timer (90–180 minutes format-dependent).
+G. The Codex Strategos (Rulebook)
+This document consolidates rules, setup, manifests, glossary, and tournament regs.
+________________
+
+
+III. GAME SETUP
+A. Board & Components
+Place the board centrally; supply dice, CP tokens, and the Chronicle deck.
+B. Faction Selection & Deployment
+Choose factions; take pieces and each faction’s Concordance Scroll. Place starting Influence, Units, and Sovereign as indicated on your Scroll. Starting CP = 8 per player (tournament standard).
+C. Chronicle Deck & Starting Hand
+Shuffle; deal 6 Chronicle cards to each player.
+D. Timers & First Player (ACSA Method)
+Set the Game Timer. Both players roll 1 die; high roller chooses to play first or second. Assign the Turn Timer to the first player. (This replaces older matchup-based or coin-flip variants.)
+________________
+
+
+IV. GAMEPLAY & TURN STRUCTURE (THE STRATEGEM CYCLE)
+A. Round Overview
+Players alternate turns until both pass consecutively or both hands are empty; then the Round ends. Discard any remaining cards (mandatory) and deal 6 new cards to each player. (This clarifies and replaces past “optional-discard” variants.)
+B. Turn Phases
+1) Influence Phase (start of your turn)
+ • Gain CP = sum of CP values on Locations you control +1 CP per fully controlled Territory (you control all Locations in that Territory); minimum 3 CP.
+• Draw 1 Chronicle card (max hand size 7; immediately discard down if exceeded).
+2) Action Phase (timed—5 minutes standard)
+ You must play exactly one Chronicle card, choosing one mode:
+• Play for Ops: Reveal it. If it bears your opponent’s Faction Icon, your opponent may choose to immediately trigger and resolve its Event before you gain Ops. Then you gain Ops equal to the card’s Ops value and spend them on Standard Actions. (If Neutral or your Icon, no Event triggers when played for Ops.)
+• Play for Event: Resolve the Event text in full. You gain no Ops unless the Event itself grants them.
+You may keep taking Standard Actions until Ops are spent or your Turn Timer expires. Unspent Ops are lost.
+3) Resolution Phase
+ Check victory (Regicide). Pass the Turn Timer; your opponent begins their Influence Phase. If both pass consecutively or both hands are empty, resolve Round end (see IV.A).
+C. Standard Actions (Using Ops)
+Unless noted, the cost is per use; you may mix actions while Ops remain.
+• Place Influence (1 Op): Place 1 of your Influence in a Location that (a) contains your Units/Luminary/Sovereign, or (b) is adjacent by a path to a Location where you already have Units or Influence. Control flips when you have strictly more Influence than the opponent; remove their marker when control changes. Limit 1 placement per Location per Action Phase (you can place in multiple different Locations this turn).
+• Recruit Units (1 Op per Basic; 2 Ops per Elite): Place in a controlled City or Fortress; obey pool limits. (Optional table cap: max 3 recruits per turn for pace.)
+• Move (1 Op per Group per Connection): Move any-size stack along one path to an adjacent Location. Some units/factions may move farther per Op (e.g., cavalry). Entering an enemy-occupied Location initiates Combat immediately.
+• Fortify (2 Ops; Fortresses only): Increase that Fortress’s defensive CV bonus for the next combat this Round.
+• Strategic Redeployment (3 Ops): Move Units between two friendly controlled Locations regardless of adjacency (respect any faction limits).
+• Activate Luminary/Sovereign Ability (variable Ops): Pay the cost on your Concordance Scroll; each Leader/Sovereign may activate once per Round unless otherwise stated.
+Stack Limit & Sovereign Stacking
+ Max 6 Units/Luminaries in a stack per Location. The Sovereign does not count toward the 6 but may not end a turn alone in a Location—recruit or move with escort.
+________________
+
+
+V. COMBAT SYSTEM (THE CRUCIBLE OF CONFLICT)
+A. Initiation & Pre-Combat Window
+Combat begins when the Attacker enters an enemy-occupied Location. Before any dice are rolled, there is a single Pre-Combat Window: first the Defender, then the Attacker, may do ONE of: play a Combat Event or activate ONE ability labeled “Before Combat Rolls.”
+B. Determining Combat Value (CV) & Dice
+1. CV Sources: Sum Unit CV; add Leader/Sovereign CV; add Terrain (e.g., Fortress +2 CV (Defender); Forest/Ruins +1 CV (Defender)).
+
+2. Elite Units count as 1.5 CV—keep the fraction through calculation.
+
+3. Dice = floor(final CV), capped at 5 dice. Attacker rolls Umbra; Defender rolls Solidi.
+
+C. Modifiers, Re-rolls, and Resolution
+Cards/abilities may permit a targeted re-roll (a die can be re-rolled once) or +1 to your single highest die. After modifiers, compare single highest die; Defender wins ties. The loser removes 1 Unit; if none remain, remove a Luminary; if only the Sovereign remains, it suffers 1 wound.
+D. Combat Rounds
+Combat is exactly 2 Rounds unless a side is eliminated earlier. Resolve Round 1 in full, then Round 2.
+E. Retreat & Elimination
+After Round 1, the Attacker may retreat surviving pieces to the origin Location. If they do, the Defender rolls 1 parting-shot die; on 5+ the Attacker removes 1 retreating Unit (their choice). If the Attacker eliminates all Defenders, they seize control and place 1 Influence (survivors remain). If the Defender eliminates all Attackers, they hold. If both sides still remain after Round 2, the Attacker must retreat to origin; the Defender holds. (This replaces prior “no-retreat” variants.)
+________________
+
+
+VI. SOVEREIGN VULNERABILITY & VICTORY CONDITIONS
+• The Sovereign is powerful (default CV 3, Health 3) and grants unique abilities—protect it.
+• Regicide (Primary): Eliminate the enemy Sovereign to win instantly.
+• Concession: Opponent yields.
+• Time: If the Game Timer expires, highest total CP on the board wins. Tie-break: (1) most fully controlled Territories; (2) most controlled Locations; (3) higher Gladius Index (if applicable).
+________________
+
+
+VII. FACTION MANIFESTS (TOURNAMENT-READY EXEMPLARS)
+Notes: Unless stated, Leaders/Sovereign may activate once per Round. Kits are tuned for WC3-like parity: sharp differences, stable balance with proper play.
+A. Valerius the Just (Aethelgard) — Order & Law
+Sovereign — Valerius (CV 3, Health 3)
+Ability — Imperial Decree (2 Ops): Choose one—(i) place 1 free Influence in any Location adjacent to Valerius; or (ii) cancel an opponent’s Neutral Event just played.
+Luminaries
+ • Legate Cassius Dorn (CV 2, H1): Units stacked with Dorn gain +1 CV while Defending.
+• Magistra Lyra Vex (CV 1, H1): (1 Op) Draw 1 Chronicle card.
+Units
+ • Disciplined Legionaries (CV 1) ×25
+• Veteran Centurions (Elite, CV 1.5) ×10
+Faction Power — Ratio et Lumen: During your Influence Phase, gain +1 CP per fully controlled Territory.
+Starting CP — 8; starts at Aethelgard City (Fortress, CP 2).
+Style — Balanced, influence-savvy, reactive denial.
+B. Cyrus the Ascendant (Voren Dominion) — Strength & Shadow
+Sovereign — Cyrus (CV 3, Health 3)
+Ability — Void’s Embrace (2 Ops): Choose a Location with an enemy Leader. Roll 1 die: on 4+, that opponent discards 1 random Chronicle card; on 1, Cyrus suffers 1 wound.
+Luminaries
+ • Grand Marshal Vorlag (CV 2, H1): Units attacking from Vorlag’s Location gain +1 to their single highest die.
+• High Priestess Morwen (CV 1, H1): (1 Op) Name a Standard Action; the opponent must spend +1 Op the next time they take that action this Round (min 1).
+Units
+ • Voren Fanatics (CV 1) ×30
+• Totenkorps Elite (Elite, CV 1.5) ×8 — Fear: Opponent rolls 1 fewer die in Round 1 only of any combat where Totenkorps are present on defense or attack.
+Faction Power — Strength Through Sacrifice: Once per Round, eliminate one of your Fanatic Units anywhere to immediately gain +2 Ops.
+Starting CP — 8; starts at Obsidian Citadel (Fortress, CP 2).
+Style — Explosive tempo spikes, fear pressure, disruptive play.
+C. High Thane Borin Stonehand (Stonekin) — Resilience & Craft
+Sovereign — Borin (CV 3, Health 3)
+Ability — Rune of Endurance (2 Ops): Place a “+1 Def CV” marker on Borin’s Location or an adjacent Location; it persists until the end of the opponent’s next turn (max 1 such marker per side on the map).
+Luminaries
+ • Runesmith Elder Karga (CV 1, H1): (1 Op) Move the “+1 Def CV” marker to a Location within 1 connection of its current space.
+• Shield-Brother Durn (CV 2, H1): While Defending with Durn present, if the highest dice tie, the Attacker removes 1 extra Unit (tie attrition). (Clarifies “Stalwart”: ties still go to Defender, but Durn makes ties punishing.)
+ Units
+ • Hearthguard (CV 1) ×24
+• Hammerlords (Elite, CV 1.5) ×8
+Faction Power — Bulwark of Stone: When Defending in a Fortress, your terrain bonus is increased by +1 CV (total +3 CV before markers). Stacks with Rune markers.
+Starting CP — 8; starts at Deepgate (Fortress, CP 2).
+Style — Fortress kings; superb at counterpunching and attrition.
+D. Warden Lyraelle (Sylvani) — Harmony & Stealth
+Sovereign — Lyraelle (CV 3, Health 3)
+Ability — Veil of the Green (2 Ops): Choose a Forest or Ruins Location; until your next turn, enemy Moves that enter that Location cost +1 Op per Group (min 1).
+Luminaries
+ • Whisper-Scout Thael (CV 1, H1): Once per Round, when you Move a Group through a Forest, treat that path as free (0 Op) for that Group (doesn’t chain).
+• Glade Seer Naevia (CV 1, H1): Once per Combat, after initial dice are rolled, cancel one opponent die showing 4 or less (remove it before modifiers).
+Units
+ • Forest Wardens (CV 1) ×22
+• Moon Archers (Special): Before each Combat Round (both R1 and R2), roll 1 die; on 5+, the enemy removes 1 Unit (archery hit). Archers do not add CV and do not count toward the stack cap (max 1 Archer detachment per Location).
+Faction Power — Whispered Paths: Once per turn, one friendly Move that includes at least one Forest step may traverse 1 connection for 0 Op.
+Starting CP — 8; starts at Elensyl Grove (Forest City, CP 2).
+Style — Positional denial, ambush, low-attrition tempo.
+E. First Khagan Temujin (Khaganate) — Mobility & Adaptation
+Sovereign — Temujin (CV 3, Health 3)
+Ability — Banner of the Endless Steppe (2 Ops): Target a friendly Group; this turn, each Move for that Group may traverse 2 connections per 1 Op (continuous paths; cannot pass through enemy-occupied without initiating Combat).
+Luminaries
+ • Storm Rider Kara (CV 1, H1): Once per Round, after resolving Round 1 of a Combat you initiated, you may retreat your surviving pieces without suffering the parting shot. (Counts as your Feigned Retreat use if used.)
+• Tactician Orhan (CV 2, H1): (1 Op) Immediately Move one friendly Group 1 connection (cannot enter enemy-occupied with this effect).
+Units
+ • Nomad Horse (CV 1) ×28 — Cavalry: In a normal Move action, may traverse 2 connections per 1 Op (must end in a legal Location; entering enemy-occupied still triggers Combat).
+• Steppe Guard (Elite, CV 1.5) ×6
+Faction Power — Feigned Retreat: Once per Round, when you’re the Attacker and choose to retreat after Round 1, ignore the Defender’s parting-shot die.
+Starting CP — 8; starts at Great Encampment (Plains City, CP 2).
+Style — Map pressure and strike-fade mastery; punishes slow pivots.
+F. Elarion Silvershade (Legendary) — Balance & Peril (Tournament Banned)
+Preserved for narrative/casual play; intentionally beyond tournament balance and therefore banned in sanctioned events.
+________________
+
+
+VIII. ESSENCE-INFUSED GAME SETS (AESTHETIC & FUNCTIONALITY)
+High-end sets use Aetherium/Lumenstone inlays for a subtle glow; purely aesthetic—no mechanical advantage.
+________________
+
+
+IX. THE IMPERIAN STRATEGOS LEAGUE (ISL) & COMPETITIVE PLAY
+The ISL (under ACSA) administers ratings (Gladius Index), formats, time controls, map legality, and tournament regs.
+________________
+
+
+X. RENOWNED PLAYERS & STRATEGIC STYLES
+Legends and modern champions shape meta theory; curated lists appear in ISL almanacs.
+________________
+
+
+XI. SHADOW GAMES & UNDERGROUND CULTURE
+Unsanctioned variants and high-stakes “Shadow Games” exist outside ISL oversight; colorful, but not tournament-legal.
+________________
+
+
+XII. HISTORICAL CONTEXT & EVOLUTION
+From mythic prototypes to post-Cataclysm standardization, this edition finalizes clean timing windows, a consistent retreat rule, clarified Icons logic, and precise Ops/Event interactions.
+________________
+
+
+XIII. LLM SIMULATION GUIDE & MECHANICS REFERENCE (ABRIDGED)
+• Core Loop: CP income → card choice (Ops vs Event) → Ops allocation → capped-dice combats → positional scoring.
+• Key Decisions: Regicide risks, Territory locks, deck state (Icons), timer pressure.
+• Combat Algorithm: Compute CV with fractional elites; dice=floor(CV) (cap 5); apply modifiers; compare highest; loser attrits; 2 Rounds; retreat window after R1.
+________________
+
+
+XIV. GLOSSARY
+CP: Command Points (income/spend).
+Ops: Operational Points (action currency).
+CV: Combat Value (translates to dice).
+Luminary: Leader piece.
+Sovereign: Monarch piece.
+Parting Shot: Defender’s 1 die on 5+ when Attacker retreats after R1.
+________________
+
+
+XV. DESIGNER’S COMMENTARY & BALANCE PHILOSOPHY (SUMMARY)
+Resolved contradictions & standardizations:
+ • First Player = ACSA die method; winner chooses.
+• Income = sum of controlled Location CP +1 per fully controlled Territory (min 3).
+• End-of-Round = mandatory hand discard + new 6.
+• Opponent-Icon trigger (Play for Ops) = optional (opponent may choose to fire) and resolves before Ops.
+• Influence placement = 1 per Location per Action Phase (no global cap).
+• Stack limit = 6 Units/Luminaries; Sovereign not counted but can’t be alone.
+• Pre-Combat window = Defender then Attacker.
+• Retreat = Attacker may retreat after Round 1 (parting shot on 5+); if still locked after Round 2, Attacker must retreat.
+• CV/Dice = elites 1.5 CV; dice=floor(CV); cap 5.
+Asymmetry parity:
+ Stonekin tie-attrition clarified; Sylvani denial not over-favored if Forest density is governed; Khaganate mobility gated by once/round Feigned Retreat; Voren fear limited to Round 1; Aethelgard excels at tempo denial. Result: unique kits, stable parity, high skill ceiling.
+________________
+
+
+XVI. WORKED EXAMPLES (PLAY EXAMPLES)
+1) Ops vs Event with Opponent Icon
+ You (Aethelgard) play a Voren-icon card for Ops. The Voren opponent may choose to fire the Event first; they decline. You then gain 3 Ops and spend them: Place Influence (twice, in different Locations) and Recruit once.
+2) Combat with Elite CV & Retreat
+ Your stack (2× Legionaries + 1× Elite Centurion) attacks a Fortress. Your CV = 1 + 1 + 1.5 = 3.5 ⇒ floor=3 dice; Defender CV includes Fortress +2 and rolls up to 5 dice (cap). After Round 1, you retreat; Defender rolls parting shot—misses on 4.
+3) Stonekin Tie Attrition
+ As Defender with Shield-Brother Durn, the highest dice tie. You already hold (Defender wins ties), and Durn additionally forces the Attacker to remove 1 extra Unit (attrition). They think twice about Round 2.
+________________
+
+
+END OF OFFICIAL RULES
+________________
